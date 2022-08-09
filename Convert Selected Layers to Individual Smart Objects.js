@@ -46,7 +46,6 @@ function smartifyAndGetSelectedLayersIdxEtc(){
 		var theName = layerDesc.getString(stringIDToTypeID("name"));
 		var theVisibility = layerDesc.getInteger(stringIDToTypeID("visible"));
 		var isLayerLocked = isLocked(layerDesc);
-		alert(isLayerLocked)
 		var theBounds = layerDesc.getObjectValue(stringIDToTypeID("bounds"));
 		var halfWidth = theBounds.getUnitDoubleValue(stringIDToTypeID("width")) / 2;
 		var halfHeight = theBounds.getUnitDoubleValue(stringIDToTypeID("height")) / 2;
@@ -76,7 +75,7 @@ function smartifyAndGetSelectedLayersIdxEtc(){
 				desc108.putReference( id558, ref77 );
 				executeAction( id557, desc108, DialogModes.NO );
 				theArray.push([getLayerId(app.activeDocument.activeLayer), theIDs[n][1], theIDs[n][2], theIDs[n][3], theIDs[n][4], theIDs[n][5]]);
-				} catch (e) {alert(e.message)}
+				} catch (e) {}
 			}
 		else {
 			theArray.push(theIDs[n])
