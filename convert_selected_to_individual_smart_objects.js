@@ -1,4 +1,3 @@
-// 2018, use it at your own risk, resave as .js for Photoshop to recognize
 if (app.documents.length > 0) {
 	smartifyAndGetSelectedLayersIdxEtc()
 };
