@@ -1,7 +1,7 @@
 # Convert Selected Layers to Individual Smart Objects
 
 ### Usage
-Selected multiple Layers and/or Groups run the script.
+Selected multiple Layers and/or Groups run the script by going to "File" -> "Script" -> "Convert Selected Layers... ".
 
 ### Installation
 Copy the .js file into the Photoshop Scripts directory:  
