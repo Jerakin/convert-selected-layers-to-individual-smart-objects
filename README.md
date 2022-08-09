@@ -9,4 +9,8 @@ Copy the .js file into the Photoshop Scripts directory:
 * Windows: `C:/Program Files/Adobe/Adobe Photoshop [VERSION]/Presets/Scripts/`
 
 #### Attribution
-Initial version from [community.adobe.com](https://community.adobe.com/t5/photoshop-ecosystem-discussions/script-that-converts-layers-to-separate-smart-objects/m-p/11966325)
+Initial version from [community.adobe.com](https://community.adobe.com/t5/photoshop-ecosystem-discussions/script-that-converts-layers-to-separate-smart-objects/m-p/11966325)  
+Changes includes but are not limited to:
+* Non crashing exists
+* Group support
+* Ignore locked objects
